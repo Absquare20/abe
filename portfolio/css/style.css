@@ -1,0 +1,99 @@
+.portfolio-btn .btn{
+    background-color: #119cd5;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    margin: 5px 2px;
+    cursor: pointer;
+    font-size: 18px;}
+   .portfolio-btn .btn:focus{
+    outline:none;}
+   .portfolio-content .all{
+   -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+    position: relative;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;}
+   .portfolio-content .all .content:hover{
+    box-shadow: 0px 0px 15px #00000059;}
+   .portfolio-btn{
+    text-align:center}
+   .portfolio-content{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;}
+   .portfolio-content .all .content{
+    height: 200px;
+    width: 100%;
+    border: 1px solid lightgray;
+    transition: .5s;
+    background: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;}
+   
+   @media only screen and (max-width: 600px){
+   .portfolio-content .all{
+   -ms-flex: 0 0 100%;
+       flex: 0 0 100%;
+       max-width: 100%;}}
+   
+   /* for portfolio model */
+   .portfolio-container .modal-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;}
+   .portfolio-container .modals {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    background:#14a3df;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    border: 1px solid lightgray;}
+   .portfolio-container .modal-content{
+    padding: 10px 20px 30px 20px;}
+   .portfolio-container .modal-content h3{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    font-size: 32px;}
+   .portfolio-container .modal-content p{
+    text-align: justify;
+    color: white;
+    font-size: 18px;}
+   .portfolio-container .modal-content .more-btn{
+    text-align: center;}
+   .portfolio-container .modal-content .more-btn a{
+    text-decoration: none;
+    border-bottom: 1px solid #eff1f2;
+    border-top: 1px solid #eff1f2;
+    padding: 5px 10px;
+    color: white;
+    background: #0784b8;}
+   .portfolio-container .close {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;}
+   .portfolio-container .close:hover {
+    color: black;}
+   .portfolio-content img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;}
+   .active{
+    background: #0270ba !important;}
